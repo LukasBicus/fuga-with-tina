@@ -11,6 +11,7 @@ export default {
       label: "Title",
       name: "title",
     },
+    {type: "string", label: "Tags", name: "tags", list: true},
     {
       type: "string",
       label: "Blog Post Body",
